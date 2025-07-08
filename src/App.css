@@ -1,0 +1,47 @@
+.App {
+  background-color: #c9daea;
+  border: 1px solid #3d3d3d;
+  margin: 50px 170px;
+  padding: 25px 15px;
+  border-radius: 30px;
+}
+h2{
+  text-align: center;
+  color: #3d3d3d;
+}
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+}
+input{
+  padding-left: 10px;
+}
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+.to-do-container ul li {
+  width: 170px;
+  overflow-wrap: break-word;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+
+
+.trash {
+  cursor: pointer;
+}
