@@ -15,10 +15,8 @@ h2{
 }
 input{
   padding-left: 10px;
-      /* Makes the input taller */
-  font-size: 1.2rem;    /* Makes the input text bigger */
-           /* Optional: makes the input wider */
-  margin-bottom: 10px;  /* Adds space below the input */
+  font-size: 1.2rem;   
+  margin-bottom: 10px;  
   box-sizing: border-box;
 }
 input[type="checkbox"] {
