@@ -9,6 +9,13 @@ A simple and responsive to-do list application built with React.
 - Delete items from the list
 - Responsive design for mobile and desktop
 
+## Live Demo
+
+You can view the app live here:  
+[https://your-demo-link.com](https://your-demo-link.com)
+
+*(Replace the link above with your actual deployed app URL, e.g., from Vercel, Netlify, or GitHub Pages.)*
+
 ## Getting Started
 
 ### Prerequisites
