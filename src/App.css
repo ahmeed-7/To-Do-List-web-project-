@@ -15,12 +15,19 @@ h2{
 }
 input{
   padding-left: 10px;
+      /* Makes the input taller */
+  font-size: 1.2rem;    /* Makes the input text bigger */
+           /* Optional: makes the input wider */
+  margin-bottom: 10px;  /* Adds space below the input */
+  box-sizing: border-box;
 }
 input[type="checkbox"] {
   margin-right: 8px;
 }
 .to-do-container ul li {
-  width: 170px;
+  width: 70%;
+  font-size: 1.3rem;
+  padding: 12px 0;
   overflow-wrap: break-word;
   list-style-type: none;
   cursor: pointer;
@@ -39,9 +46,55 @@ input[type="checkbox"] {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-  
+button {
+  background-color: #46acc2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+  height: 37px;
+} 
 
 
 .trash {
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .App {
+    margin: 10px 2px;
+    padding: 10px 2px;
+    border-radius: 16px;
+  }
+
+  .to-do-container ul li {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px 0;
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 12px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 1rem;
+    height: 40px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+    height: 40px;
+    padding: 10px 0;
+  }
 }
